@@ -1,0 +1,28 @@
+<h1>Welcome, {{ user.username }}</h1>
+
+<form method="POST">
+  {% csrf_token %}
+  <label for="username">Edit your username:</label>
+  <input type="text" name="username" value="{{ user.username }}">
+  <button type="submit">Save</button>
+</form>
+
+<hr>
+
+<h2>Your Liked Blogs</h2>
+<ul>
+  {% for blog in liked_blogs %}
+    <li><a href="{% url 'blog_detail' blog.id %}">{{ blog.title }}</a></li>
+  {% empty %}
+    <li>You haven’t liked any blog yet.</li>
+  {% endfor %}
+</ul>
+
+<h2>Your Comments</h2>
+<ul>
+  {% for comment in user_comments %}
+    <li>{{ comment.blog.title }} — "{{ comment.text }}"</li>
+  {% empty %}
+    <li>No comments yet.</li>
+  {% endfor %}
+</ul>

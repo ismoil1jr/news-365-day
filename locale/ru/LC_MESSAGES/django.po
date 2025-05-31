@@ -1,0 +1,396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-28 20:39+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\app\models.py:13
+msgid "slug"
+msgstr "слизень"
+
+#: .\app\models.py:15 .\app\models.py:62
+msgid "nomi"
+msgstr "имя"
+
+#: .\app\models.py:57 .\app\models.py:82
+#, fuzzy
+#| msgid "Blog-Category"
+msgid "Kategoriya"
+msgstr "Блог-Категория"
+
+#: .\app\models.py:58
+#, fuzzy
+#| msgid "Kategoriyalar topilmadi."
+msgid "Kategoriyalar"
+msgstr "Категории не найдены."
+
+#: .\app\models.py:68
+msgid "Teg"
+msgstr "Тег"
+
+#: .\app\models.py:69
+msgid "Teglar"
+msgstr "Теги"
+
+#: .\app\models.py:77
+msgid "Sarlavha"
+msgstr "Заголовок"
+
+#: .\app\models.py:78
+msgid "Matn"
+msgstr "Текст"
+
+#: .\app\models.py:79
+msgid "Rasm"
+msgstr "Картина"
+
+#: .\app\models.py:83
+msgid "Status"
+msgstr "Статус"
+
+#: .\app\models.py:84 .\templates\blog.html:67 .\templates\blog_single.html:176
+msgid "Like"
+msgstr "Нравиться"
+
+#: .\app\models.py:85
+msgid "Korilgan"
+msgstr "Просмотрено"
+
+#: .\app\models.py:86
+msgid "Hesh teg"
+msgstr "Хэштег"
+
+#: .\app\models.py:87
+msgid "Sana vaqt"
+msgstr "Дата время"
+
+#: .\app\models.py:102 .\templates\base.html:224
+msgid "Blog"
+msgstr "Блог"
+
+#: .\app\models.py:103
+#, fuzzy
+#| msgid "Blog"
+msgid "Bloglar"
+msgstr "Блог"
+
+#: .\templates\404.html:14 .\templates\author.html:13 .\templates\blog.html:13
+#: .\templates\blog_single.html:13 .\templates\contact.html:13
+#: .\templates\gallery.html:13 .\templates\gallery_single.html:13
+#: .\templates\index.html:15 .\templates\life_style.html:13
+#: .\templates\sport.html:12 .\templates\technology.html:12
+msgid "Trending"
+msgstr "В тренде"
+
+#: .\templates\404.html:42
+msgid "error"
+msgstr "ошибка"
+
+#: .\templates\404.html:43
+msgid "page not found"
+msgstr "страница не найдена"
+
+#: .\templates\author.html:72
+msgid "more about author"
+msgstr "больше об авторе"
+
+#: .\templates\author.html:79
+msgid ""
+"Phasellus eu scelerisque nisi. Nunc odio justo, laoreet varius ante et, "
+"pulvinar vulputate ligula. Maecenas nec justo lacinia, luctus urna eu, "
+"rutrum justo. Maecenas dolor erat, porttitor quis nunc a, consectetur "
+"elementum ante. Duis odio nisi, risque at consequat quis, consectetur in "
+"eros. ."
+msgstr ""
+
+#: .\templates\author.html:91
+msgid "Award of the year"
+msgstr "Премия года"
+
+#: .\templates\author.html:92
+msgid ""
+"auctor, nisi elit consequat ipsum, nec sem nibh id elit.Aenean sollicitudin, "
+"lorem quis bibendum auctor, nisi elit eneaollicitudin, lorem quis bibendum "
+"auctor,onsepsuec Aenean sollicitudin, lorem quis bibendum auctor, nisi elit "
+"consequat ipsum eneaollicitudin, lorem quis bibendum auctor,onsepsuec nibh "
+"id elit.Aenean sollicitudin, lorem qeneaollicitudin, lorem quis bibendum"
+msgstr ""
+
+#: .\templates\author.html:143
+msgid "Today weather"
+msgstr "Сегодняшняя погода"
+
+#: .\templates\base.html:31
+msgid "365 Days Responsive HTML Template"
+msgstr "Номер страницы не является целым числом."
+
+#: .\templates\base.html:78
+msgid "contact us"
+msgstr "связаться с нами"
+
+#: .\templates\base.html:102
+msgid "login"
+msgstr "авторизоваться"
+
+#: .\templates\base.html:104
+msgid "menu"
+msgstr "меню"
+
+#: .\templates\base.html:116
+msgid "WORLD NEWS"
+msgstr "МИРОВЫЕ НОВОСТИ"
+
+#: .\templates\base.html:118
+msgid "SPORT NEWS"
+msgstr "SPORT NEWS"
+
+#: .\templates\base.html:120
+msgid "MUSIC NEWS"
+msgstr "МУЗЫКАЛЬНЫЕ НОВОСТИ"
+
+#: .\templates\base.html:122
+msgid "BUSINESS NEWS"
+msgstr "ДЕЛОВЫЕ НОВОСТИ"
+
+#: .\templates\base.html:124
+msgid "TECHNOLOGICAL"
+msgstr "ТЕХНОЛОГИЧЕСКИЙ"
+
+#: .\templates\base.html:126
+msgid "TRAVEL NEWS"
+msgstr "НОВОСТИ ПУТЕШЕСТВИЙ"
+
+#: .\templates\base.html:128
+msgid "MECIAL NEWS"
+msgstr "МЕДИЦИНСКИЕ НОВОСТИ"
+
+#: .\templates\base.html:167
+msgid "home"
+msgstr "дом"
+
+#: .\templates\base.html:172
+msgid "sport"
+msgstr "спорт"
+
+#: .\templates\base.html:199
+msgid "technology"
+msgstr "технология"
+
+#: .\templates\base.html:222
+msgid "pages"
+msgstr "страницы"
+
+#: .\templates\base.html:226
+msgid "Blog-Category"
+msgstr "Блог-Категория"
+
+#: .\templates\base.html:228
+msgid "Blog-Single"
+msgstr "Блог-сингл"
+
+#: .\templates\base.html:232 .\templates\base.html:234
+msgid "Gallery"
+msgstr "Галерея"
+
+#: .\templates\base.html:236
+msgid "Gallery-Single"
+msgstr "Галерея-сингл"
+
+#: .\templates\base.html:242
+msgid "Life-Style"
+msgstr "Образ-жизни"
+
+#: .\templates\base.html:244
+msgid "Sport"
+msgstr "Sport"
+
+#: .\templates\base.html:246
+msgid "Technology"
+msgstr "Технологии"
+
+#: .\templates\base.html:248
+msgid "Author"
+msgstr "Автор"
+
+#: .\templates\base.html:254 .\templates\login.html:16
+#: .\templates\login.html:52
+msgid "Login"
+msgstr "Авторизоваться"
+
+#: .\templates\base.html:257 .\templates\register.html:14
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: .\templates\base.html:261
+msgid "Contact"
+msgstr "Контакт"
+
+#: .\templates\blog.html:47
+msgid "Bo'yicha qidiruv natijasi"
+msgstr "Результаты поиска по запросу"
+
+#: .\templates\blog.html:69
+msgid "Comments"
+msgstr "Комментарии"
+
+#: .\templates\blog_single.html:78
+msgid "Sharing is Caring"
+msgstr "Поделиться — значит проявить заботу"
+
+#: .\templates\blog_single.html:101
+#, fuzzy
+#| msgid "Author"
+msgid "About Author"
+msgstr "Автор"
+
+#: .\templates\blog_single.html:134
+msgid "leave a comment"
+msgstr "оставить комментарий"
+
+#: .\templates\blog_single.html:144
+msgid "YUBORISH"
+msgstr "ОТПРАВЛЯТЬ"
+
+#: .\templates\blog_single.html:146
+msgid "LOGIN"
+msgstr "АВТОРИЗОВАТЬСЯ"
+
+#: .\templates\blog_single.html:152
+msgid "comments"
+msgstr "комментарии"
+
+#: .\templates\blog_single.html:154
+msgid "New Template"
+msgstr "Новый шаблон"
+
+#: .\templates\blog_single.html:160
+msgid "Recommend"
+msgstr "Рекомендовать"
+
+#: .\templates\blog_single.html:174
+msgid "Share"
+msgstr "Делиться"
+
+#: .\templates\blog_single.html:178
+msgid "reply"
+msgstr "отвечать"
+
+#: .\templates\blog_single.html:215
+msgid "Bog‘liq bloglar topilmadi"
+msgstr "Связанных блогов не найдено."
+
+#: .\templates\contact.html:41
+msgid "some line for news express"
+msgstr "какая-то строка для новостного экспресса"
+
+#: .\templates\contact.html:42
+msgid ""
+"This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit "
+"auctor aliquet. ean sollicitudin, lorem quis bibendum auctor, nisi elit "
+"consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh "
+"vulputate cursus a sit amet mauris.This is version of Lorem Ipsum. Proin "
+"gravida nibh vel velit auctor aliquet. ean sollicitudin, lorem quis bibendum "
+"auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed "
+"odio sit amet nibh vulputate cursus a sit amet mauris."
+msgstr ""
+
+#: .\templates\contact.html:53
+msgid "121 King Street, Melbourne, Australia Victoria 3000"
+msgstr "121 Кинг Стрит, Мельбурн, Австралия Виктория 3000"
+
+#: .\templates\gallery_single.html:41
+msgid "photo gallary"
+msgstr "фотогалерея"
+
+#: .\templates\gallery_single.html:61
+msgid "style"
+msgstr "стиль"
+
+#: .\templates\index.html:91
+msgid "Recent news"
+msgstr "Последние новости"
+
+#: .\templates\index.html:156
+msgid "Ushbu kategoriyada postlar yo'q."
+msgstr "В этой категории нет записей."
+
+#: .\templates\index.html:162
+msgid "Kategoriyalar topilmadi."
+msgstr "Категории не найдены."
+
+#: .\templates\login.html:27
+msgid "Login with Facebook"
+msgstr "Войти через Facebook"
+
+#: .\templates\login.html:31
+msgid "Login with Google"
+msgstr "Войти через Google"
+
+#: .\templates\login.html:35
+msgid "or"
+msgstr "или"
+
+#: .\templates\login.html:47
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: .\templates\login.html:49
+msgid "Forgot Password"
+msgstr "Забыли пароль"
+
+#: .\templates\login.html:55
+msgid "Don’t have an account ? "
+msgstr "У вас нет учетной записи?"
+
+#: .\templates\login.html:55
+#, fuzzy
+#| msgid "Register"
+msgid "Register Now"
+msgstr "Зарегистрироваться"
+
+#: .\templates\login.html:59 .\templates\register.html:58
+msgid ""
+"In case you are using a public/shared computer we recommend that you logout "
+"to prevent any un-authorized access to your account"
+msgstr ""
+
+#: .\templates\register.html:45
+msgid "I agreed to the"
+msgstr "Я согласился на"
+
+#: .\templates\register.html:45
+msgid "Terms and Conditions</a> governing the use of weapon store"
+msgstr ""
+"Условия и положения</a>, регулирующие использование оружейного магазина"
+
+#: .\templates\register.html:50
+#, fuzzy
+#| msgid "Register"
+msgid "register"
+msgstr "Зарегистрироваться"
+
+#: .\templates\register.html:53
+msgid "Already a member?"
+msgstr "Вы уже являетесь участником?"
+
+#: .\templates\register.html:53
+#, fuzzy
+#| msgid "Login"
+msgid "Login Here"
+msgstr "Авторизоваться"

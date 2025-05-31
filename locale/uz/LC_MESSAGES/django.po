@@ -1,0 +1,409 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-28 20:39+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\app\models.py:13
+msgid "slug"
+msgstr "slug"
+
+#: .\app\models.py:15 .\app\models.py:62
+msgid "nomi"
+msgstr "nomi"
+
+#: .\app\models.py:57 .\app\models.py:82
+#, fuzzy
+#| msgid "Blog-Category"
+msgid "Kategoriya"
+msgstr "Kategoriya"
+
+#: .\app\models.py:58
+#, fuzzy
+#| msgid "Kategoriyalar topilmadi."
+msgid "Kategoriyalar"
+msgstr "Kategoriyalar topilmadi"
+
+#: .\app\models.py:68
+msgid "Teg"
+msgstr "Teg"
+
+#: .\app\models.py:69
+msgid "Teglar"
+msgstr "Teglar"
+
+#: .\app\models.py:77
+msgid "Sarlavha"
+msgstr "Sarlavha"
+
+#: .\app\models.py:78
+msgid "Matn"
+msgstr "Matn"
+
+#: .\app\models.py:79
+msgid "Rasm"
+msgstr "Rasm"
+
+#: .\app\models.py:83
+msgid "Status"
+msgstr "Status"
+
+#: .\app\models.py:84 .\templates\blog.html:67 .\templates\blog_single.html:176
+msgid "Like"
+msgstr "Like"
+
+#: .\app\models.py:85
+msgid "Korilgan"
+msgstr "Korilgan"
+
+#: .\app\models.py:86
+msgid "Hesh teg"
+msgstr "Hesh teg"
+
+#: .\app\models.py:87
+msgid "Sana vaqt"
+msgstr "Sana vaqt"
+
+#: .\app\models.py:102 .\templates\base.html:224
+msgid "Blog"
+msgstr "Blog"
+
+#: .\app\models.py:103
+#, fuzzy
+#| msgid "Blog"
+msgid "Bloglar"
+msgstr "Blog"
+
+#: .\templates\404.html:14 .\templates\author.html:13 .\templates\blog.html:13
+#: .\templates\blog_single.html:13 .\templates\contact.html:13
+#: .\templates\gallery.html:13 .\templates\gallery_single.html:13
+#: .\templates\index.html:15 .\templates\life_style.html:13
+#: .\templates\sport.html:12 .\templates\technology.html:12
+msgid "Trending"
+msgstr "Trend"
+
+#: .\templates\404.html:42
+msgid "error"
+msgstr "Xatolik"
+
+#: .\templates\404.html:43
+msgid "page not found"
+msgstr "Sahifa mavjud emas"
+
+#: .\templates\author.html:72
+msgid "more about author"
+msgstr "muallif haqida"
+
+#: .\templates\author.html:79
+msgid ""
+"Phasellus eu scelerisque nisi. Nunc odio justo, laoreet varius ante et, "
+"pulvinar vulputate ligula. Maecenas nec justo lacinia, luctus urna eu, "
+"rutrum justo. Maecenas dolor erat, porttitor quis nunc a, consectetur "
+"elementum ante. Duis odio nisi, risque at consequat quis, consectetur in "
+"eros. ."
+msgstr ""
+
+#: .\templates\author.html:91
+msgid "Award of the year"
+msgstr "Yil mukofoti"
+
+#: .\templates\author.html:92
+msgid ""
+"auctor, nisi elit consequat ipsum, nec sem nibh id elit.Aenean sollicitudin, "
+"lorem quis bibendum auctor, nisi elit eneaollicitudin, lorem quis bibendum "
+"auctor,onsepsuec Aenean sollicitudin, lorem quis bibendum auctor, nisi elit "
+"consequat ipsum eneaollicitudin, lorem quis bibendum auctor,onsepsuec nibh "
+"id elit.Aenean sollicitudin, lorem qeneaollicitudin, lorem quis bibendum"
+msgstr ""
+
+#: .\templates\author.html:143
+msgid "Today weather"
+msgstr "Bugun ob-havo"
+
+#: .\templates\base.html:31
+msgid "365 Days Responsive HTML Template"
+msgstr "365 kunlik javob beruvchi HTML shabloni"
+
+#: .\templates\base.html:78
+msgid "contact us"
+msgstr "Biz bilan bog'lanish"
+
+#: .\templates\base.html:102
+msgid "login"
+msgstr "tizimga kirish"
+
+#: .\templates\base.html:104
+msgid "menu"
+msgstr "menyu"
+
+#: .\templates\base.html:116
+msgid "WORLD NEWS"
+msgstr "DUNYO YANGILIKLARI"
+
+#: .\templates\base.html:118
+msgid "SPORT NEWS"
+msgstr "SPORT YANGILIKLARI"
+
+#: .\templates\base.html:120
+msgid "MUSIC NEWS"
+msgstr "MUSIQA YANGILIKLARI"
+
+#: .\templates\base.html:122
+msgid "BUSINESS NEWS"
+msgstr "BIZNES YANGILARI"
+
+#: .\templates\base.html:124
+msgid "TECHNOLOGICAL"
+msgstr "TEXNOLOGIK"
+
+#: .\templates\base.html:126
+msgid "TRAVEL NEWS"
+msgstr "SAYOXAT XABARLARI"
+
+#: .\templates\base.html:128
+msgid "MECIAL NEWS"
+msgstr "TIBBIY YANGILIKLAR"
+
+#: .\templates\base.html:167
+msgid "home"
+msgstr ""
+
+#: .\templates\base.html:172
+msgid "sport"
+msgstr "sport"
+
+#: .\templates\base.html:199
+msgid "technology"
+msgstr "texnologiya"
+
+#: .\templates\base.html:222
+msgid "pages"
+msgstr "sahifalar"
+
+#: .\templates\base.html:226
+msgid "Blog-Category"
+msgstr "Blog toifasi"
+
+#: .\templates\base.html:228
+msgid "Blog-Single"
+msgstr "Blog-Single"
+
+#: .\templates\base.html:232 .\templates\base.html:234
+msgid "Gallery"
+msgstr "Galereya"
+
+#: .\templates\base.html:236
+msgid "Gallery-Single"
+msgstr "Galereya - yagona"
+
+#: .\templates\base.html:242
+msgid "Life-Style"
+msgstr "turmush tarzi"
+
+#: .\templates\base.html:244
+msgid "Sport"
+msgstr "Sport"
+
+#: .\templates\base.html:246
+msgid "Technology"
+msgstr "Texnologiya"
+
+#: .\templates\base.html:248
+msgid "Author"
+msgstr "Muallif"
+
+#: .\templates\base.html:254 .\templates\login.html:16
+#: .\templates\login.html:52
+msgid "Login"
+msgstr "tizimga kirish"
+
+#: .\templates\base.html:257 .\templates\register.html:14
+msgid "Register"
+msgstr "Roʻyxatdan oʻtish"
+
+#: .\templates\base.html:261
+msgid "Contact"
+msgstr "Aloqa"
+
+#: .\templates\blog.html:47
+msgid "Bo'yicha qidiruv natijasi"
+msgstr "Bo'yicha qidiruv natijasi"
+
+#: .\templates\blog.html:69
+msgid "Comments"
+msgstr "Fikrlar"
+
+#: .\templates\blog_single.html:78
+msgid "Sharing is Caring"
+msgstr "Ulashish - g'amxo'rlik"
+
+#: .\templates\blog_single.html:101
+#, fuzzy
+#| msgid "Author"
+msgid "About Author"
+msgstr "Muallif"
+
+#: .\templates\blog_single.html:134
+msgid "leave a comment"
+msgstr "izoh qoldiring"
+
+#: .\templates\blog_single.html:144
+msgid "YUBORISH"
+msgstr "YUBORISH"
+
+#: .\templates\blog_single.html:146
+msgid "LOGIN"
+msgstr "LOGIN"
+
+#: .\templates\blog_single.html:152
+msgid "comments"
+msgstr "sharhlar"
+
+#: .\templates\blog_single.html:154
+msgid "New Template"
+msgstr "Yangi shablon"
+
+#: .\templates\blog_single.html:160
+msgid "Recommend"
+msgstr "Tavsiya eting"
+
+#: .\templates\blog_single.html:174
+msgid "Share"
+msgstr "Ulashish"
+
+#: .\templates\blog_single.html:178
+msgid "reply"
+msgstr "javob bering"
+
+#: .\templates\blog_single.html:215
+msgid "Bog‘liq bloglar topilmadi"
+msgstr "Bog‘liq bloglar topilmadi"
+
+#: .\templates\contact.html:41
+msgid "some line for news express"
+msgstr ""
+
+#: .\templates\contact.html:42
+msgid ""
+"This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit "
+"auctor aliquet. ean sollicitudin, lorem quis bibendum auctor, nisi elit "
+"consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh "
+"vulputate cursus a sit amet mauris.This is version of Lorem Ipsum. Proin "
+"gravida nibh vel velit auctor aliquet. ean sollicitudin, lorem quis bibendum "
+"auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed "
+"odio sit amet nibh vulputate cursus a sit amet mauris."
+msgstr ""
+
+#: .\templates\contact.html:53
+msgid "121 King Street, Melbourne, Australia Victoria 3000"
+msgstr ""
+
+#: .\templates\gallery_single.html:41
+msgid "photo gallary"
+msgstr "Galereya"
+
+#: .\templates\gallery_single.html:61
+msgid "style"
+msgstr ""
+
+#: .\templates\index.html:91
+msgid "Recent news"
+msgstr "So'nggi yangiliklar"
+
+#: .\templates\index.html:156
+msgid "Ushbu kategoriyada postlar yo'q."
+msgstr "Ushbu kategoriyada postlar yo'q."
+
+#: .\templates\index.html:162
+msgid "Kategoriyalar topilmadi."
+msgstr "Kategoriyalar topilmadi"
+
+#: .\templates\login.html:27
+msgid "Login with Facebook"
+msgstr "Facebook orqali kirish"
+
+#: .\templates\login.html:31
+msgid "Login with Google"
+msgstr "Google orqali kirish"
+
+#: .\templates\login.html:35
+msgid "or"
+msgstr "yoki"
+
+#: .\templates\login.html:47
+msgid "Remember me"
+msgstr ""
+
+#: .\templates\login.html:49
+msgid "Forgot Password"
+msgstr "Забыли пароль"
+
+#: .\templates\login.html:55
+msgid "Don’t have an account ? "
+msgstr "У вас нет учетной записи?"
+
+#: .\templates\login.html:55
+#, fuzzy
+#| msgid "Register"
+msgid "Register Now"
+msgstr "Roʻyxatdan oʻtish"
+
+#: .\templates\login.html:59 .\templates\register.html:58
+msgid ""
+"In case you are using a public/shared computer we recommend that you logout "
+"to prevent any un-authorized access to your account"
+msgstr ""
+
+#: .\templates\register.html:45
+msgid "I agreed to the"
+msgstr "365 day ga rozi bo'ldim"
+
+#: .\templates\register.html:45
+msgid "Terms and Conditions</a> governing the use of weapon store"
+msgstr ""
+"Qurol do'konidan foydalanishni tartibga soluvchi qoidalar va shartlar</a>"
+
+#: .\templates\register.html:50
+#, fuzzy
+#| msgid "Register"
+msgid "register"
+msgstr "Roʻyxatdan oʻtish"
+
+#: .\templates\register.html:53
+msgid "Already a member?"
+msgstr "Allaqachon a'zo?"
+
+#: .\templates\register.html:53
+#, fuzzy
+#| msgid "Login"
+msgid "Login Here"
+msgstr "tizimga kirish"
+
+#~ msgid "close"
+#~ msgstr "yopish"
+
+#~ msgid "Messages"
+#~ msgstr "Xabarlar"
+
+#~ msgid "Site Maps"
+#~ msgstr "Sayt xaritasi"
+
+#~ msgid "Static Files"
+#~ msgstr "Statik fayllar"
+
+#~ msgid "Syndication"
+#~ msgstr "Sindikatsiya"
