@@ -212,9 +212,10 @@ def life_style(request):
 def sport(request):
     
     sport = Category.custom.get_category('sport')
-
+    blog = Blog.objects.all()
     context = {
         'sport':sport,
+        'blog':blog
         
     }
 
